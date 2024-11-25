@@ -1,0 +1,30 @@
+{
+  "template": "https://github.com/scverse/cookiecutter-scverse",
+  "commit": "814b01135ab160b99b66817b0eeb2f3c7b84da91",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "formulaic-contrasts",
+      "package_name": "formulaic_contrasts",
+      "project_description": "Build contrasts for models defined with formulaic",
+      "author_full_name": "Gregor Sturm",
+      "author_email": "gregor.sturm@scverse.org",
+      "github_user": "grst",
+      "github_repo": "formulaic-contrasts",
+      "license": "BSD 3-Clause License",
+      "ide_integration": true,
+      "_copy_without_render": [
+        ".github/workflows/build.yaml",
+        ".github/workflows/test.yaml",
+        "docs/_templates/autosummary/**.rst"
+      ],
+      "_render_devdocs": false,
+      "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+      },
+      "_template": "https://github.com/scverse/cookiecutter-scverse"
+    }
+  },
+  "directory": null
+}
