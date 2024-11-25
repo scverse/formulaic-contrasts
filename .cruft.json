@@ -9,7 +9,7 @@
       "project_description": "Build contrasts for models defined with formulaic",
       "author_full_name": "Gregor Sturm",
       "author_email": "gregor.sturm@scverse.org",
-      "github_user": "grst",
+      "github_user": "scverse",
       "github_repo": "formulaic-contrasts",
       "license": "BSD 3-Clause License",
       "ide_integration": true,

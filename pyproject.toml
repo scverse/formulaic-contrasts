@@ -53,8 +53,8 @@ optional-dependencies.test = [
 ]
 # https://docs.pypi.org/project_metadata/#project-urls
 urls.Documentation = "https://formulaic-contrasts.readthedocs.io/"
-urls.Homepage = "https://github.com/grst/formulaic-contrasts"
-urls.Source = "https://github.com/grst/formulaic-contrasts"
+urls.Homepage = "https://github.com/scverse/formulaic-contrasts"
+urls.Source = "https://github.com/scverse/formulaic-contrasts"
 
 [tool.hatch.envs.default]
 installer = "uv"
