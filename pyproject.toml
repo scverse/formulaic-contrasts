@@ -4,7 +4,6 @@ requires = [ "hatch-vcs", "hatchling" ]
 
 [project]
 name = "formulaic-contrasts"
-version = "0.0.1"
 description = "Build contrasts for models defined with formulaic"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -22,6 +21,7 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
 ]
+dynamic = [ "version" ]
 dependencies = [
   "formulaic",
   "pandas",
@@ -70,6 +70,9 @@ scripts.clean = "git clean -fdX -- {args:docs}"
 
 [tool.hatch.envs.hatch-test]
 features = [ "test" ]
+
+[tool.hatch.version]
+source = "vcs"
 
 [tool.ruff]
 line-length = 120
