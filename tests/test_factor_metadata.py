@@ -2,8 +2,12 @@ import pandas as pd
 import pytest
 from formulaic.parser.types import Factor
 
-from formulaic_contrasts import AmbiguousAttributeError, FactorMetadata
-from formulaic_contrasts._factor_metadata import get_factor_storage_and_materializer, resolve_ambiguous
+from formulaic_contrasts import FactorMetadata
+from formulaic_contrasts._factor_metadata import (
+    AmbiguousAttributeError,
+    get_factor_storage_and_materializer,
+    resolve_ambiguous,
+)
 
 
 @pytest.mark.parametrize(
