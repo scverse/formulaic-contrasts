@@ -6,7 +6,7 @@
 :hidden: true
 :maxdepth: 1
 
-model_usage.md
+model_usage.ipynb
 contrasts.md
 api.md
 changelog.md

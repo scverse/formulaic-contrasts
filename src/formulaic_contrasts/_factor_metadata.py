@@ -21,7 +21,7 @@ from interface_meta import override
 
 @dataclass
 class FactorMetadata:
-    """Store (relevant) metadata for a factor of a formula."""
+    """Dataclass to hold metadata related to a factor from a formula."""
 
     name: str
     """The unambiguous factor name as specified in the formula. E.g. `donor`, or `C(donor, contr.treatment(base="A"))`"""

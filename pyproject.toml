@@ -47,6 +47,7 @@ optional-dependencies.doc = [
   "sphinx-tabs",
   "sphinxcontrib-bibtex>=1",
   "sphinxext-opengraph",
+  "statsmodels",
 ]
 optional-dependencies.test = [
   "coverage",

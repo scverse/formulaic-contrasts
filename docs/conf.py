@@ -96,7 +96,8 @@ intersphinx_mapping = {
     "anndata": ("https://anndata.readthedocs.io/en/stable/", None),
     "scanpy": ("https://scanpy.readthedocs.io/en/stable/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
-    "formulaic": ("https://formulaic.readthedocs.io/en/latest/", None),
+    # "formulaic": ("https://formulaic.readthedocs.io/en/latest/", None), # intersphinx apparently not available
+    "pandas": ("https://pandas.pydata.org/pandas-docs/stable/", None),
 }
 
 # List of patterns, relative to source directory, that match files and
@@ -128,5 +129,5 @@ pygments_style = "default"
 nitpick_ignore = [
     # If building the documentation fails because of a missing link that is outside your control,
     # you can add an exception to this list.
-    #     ("py:class", "igraph.Graph"),
+    ("py:class", "formulaic.parser.types.factor.Factor.Kind"),
 ]

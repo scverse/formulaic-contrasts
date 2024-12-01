@@ -10,5 +10,16 @@
     FormulaicContrasts
     FactorMetadata
     get_factor_storage_and_materializer
-    AmbiguousAttributeError
+```
+
+## Example data
+
+```{eval-rst}
+.. module:: formulaic_contrasts.datasets
+.. currentmodule:: formulaic_contrasts.datasets
+
+.. autosummary::
+    :toctree: generated
+
+    treatment_response
 ```

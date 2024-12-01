@@ -2,7 +2,7 @@
 
 [![Tests][badge-tests]][tests]
 [![Documentation][badge-docs]][documentation]
-[![codecov.io][badge-codecov]]
+[![codecov.io]][badge-codecov]
 
 [badge-tests]: https://img.shields.io/github/actions/workflow/status/scverse/formulaic-contrasts/test.yaml?branch=main
 [badge-docs]: https://img.shields.io/readthedocs/formulaic-contrasts

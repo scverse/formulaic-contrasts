@@ -6,18 +6,22 @@ from ._factor_metadata import AmbiguousAttributeError, Factor, get_factor_storag
 
 
 class FormulaicContrasts:
-    def __init__(self, data: pd.DataFrame, design: str):
-        """
-        Initialize the contrast builder
+    """Build contrasts for a model design specified as formulaic formula.
 
-        Parameters
-        ----------
-        data
-            Metadata to be passed to formulaic
-        design
-            Formulaic formula of the model definition
-        """
+    Keeps track of factors and their metadata and provides the {func}`~FormulaicContrasts.cond` method
+    for building contrasts.
+
+    Parameters
+    ----------
+    data
+        Metadata to be passed to formulaic
+    design
+        Formulaic formula of the model definition
+    """
+
+    def __init__(self, data: pd.DataFrame, design: str):
         self.factor_storage, self.variable_to_factors, materializer_class = get_factor_storage_and_materializer()
+        self.data = data
         self.design = materializer_class(data, record_factor_metadata=True).get_model_matrix(design)
 
     @property
