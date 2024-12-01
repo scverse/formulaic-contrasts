@@ -42,10 +42,6 @@ class FormulaicContrasts:
         -------
             A contrast vector that aligns to the columns of the design matrix.
         """
-        if self.factor_storage is None:
-            raise RuntimeError(
-                "Building contrasts with `cond` only works if you specified the model using a formulaic formula. Please manually provide a contrast vector."
-            )
         cond_dict = kwargs
         if not set(cond_dict.keys()).issubset(self.variables):
             raise ValueError(
