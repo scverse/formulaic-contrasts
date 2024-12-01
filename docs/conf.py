@@ -98,6 +98,7 @@ intersphinx_mapping = {
     "numpy": ("https://numpy.org/doc/stable/", None),
     # "formulaic": ("https://formulaic.readthedocs.io/en/latest/", None), # intersphinx apparently not available
     "pandas": ("https://pandas.pydata.org/pandas-docs/stable/", None),
+    "statsmodels": ("https://www.statsmodels.org/stable/", None),
 }
 
 # List of patterns, relative to source directory, that match files and
