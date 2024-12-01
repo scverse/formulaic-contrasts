@@ -22,13 +22,13 @@ class FormulaicContrasts:
     def __init__(self, data: pd.DataFrame, design: str):
         self.factor_storage, self.variable_to_factors, materializer_class = get_factor_storage_and_materializer()
         self.data = data
-        self.design = materializer_class(data, record_factor_metadata=True).get_model_matrix(design)
+        self.design_matrix = materializer_class(data, record_factor_metadata=True).get_model_matrix(design)
 
     @property
     def variables(self):
         """Get the names of the variables used in the model definition."""
         try:
-            return self.design.model_spec.variables_by_source["data"]
+            return self.design_matrix.model_spec.variables_by_source["data"]
         except AttributeError:
             raise ValueError(
                 "Retrieving variables is only possible if the model was initialized using a formula."
@@ -63,7 +63,7 @@ class FormulaicContrasts:
             else:
                 cond_dict[var] = self._get_default_value(var)
         df = pd.DataFrame([kwargs])
-        return self.design.model_spec.get_model_matrix(df).iloc[0]
+        return self.design_matrix.model_spec.get_model_matrix(df).iloc[0]
 
     def contrast(self, column, baseline, group_to_compare):
         """

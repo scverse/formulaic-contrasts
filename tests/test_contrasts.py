@@ -84,4 +84,4 @@ def test_model_cond(test_dataframe, MockModel, formula, cond_kwargs, expected_co
     else:
         actual_contrast = mod.cond(**cond_kwargs)
         assert actual_contrast.tolist() == expected_contrast
-        assert actual_contrast.index.tolist() == mod.design.columns.tolist()
+        assert actual_contrast.index.tolist() == mod.design_matrix.columns.tolist()
