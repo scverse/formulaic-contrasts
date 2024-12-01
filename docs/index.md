@@ -7,7 +7,7 @@
 :maxdepth: 1
 
 model_usage.ipynb
-contrasts.md
+contrasts.ipynb
 api.md
 changelog.md
 contributing.md
