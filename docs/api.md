@@ -1,38 +1,14 @@
 # API
 
-## Preprocessing
-
 ```{eval-rst}
-.. module:: formulaic_contrasts.pp
+.. module:: formulaic_contrasts
 .. currentmodule:: formulaic_contrasts
 
 .. autosummary::
     :toctree: generated
 
-    pp.basic_preproc
-```
-
-## Tools
-
-```{eval-rst}
-.. module:: formulaic_contrasts.tl
-.. currentmodule:: formulaic_contrasts
-
-.. autosummary::
-    :toctree: generated
-
-    tl.basic_tool
-```
-
-## Plotting
-
-```{eval-rst}
-.. module:: formulaic_contrasts.pl
-.. currentmodule:: formulaic_contrasts
-
-.. autosummary::
-    :toctree: generated
-
-    pl.basic_plot
-    pl.BasicClass
+    FormulaicContrasts
+    FactorMetadata
+    get_factor_storage_and_materializer
+    AmbiguousAttributeError
 ```
