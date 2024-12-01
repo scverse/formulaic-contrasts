@@ -2,9 +2,12 @@
 
 [![Tests][badge-tests]][tests]
 [![Documentation][badge-docs]][documentation]
+[![codecov.io][badge-codecov]]
 
 [badge-tests]: https://img.shields.io/github/actions/workflow/status/scverse/formulaic-contrasts/test.yaml?branch=main
 [badge-docs]: https://img.shields.io/readthedocs/formulaic-contrasts
+[badge-codecov]: https://codecov.io/github/scverse/formulaic-contrasts/coverage.svg?branch=main
+[link-codecov]: https://codecov.io/gh/scverse/formulaic-contrasts/branch/main
 
 Build contrasts for models defined with formulaic
 
@@ -43,7 +46,7 @@ If you found a bug, please use the [issue tracker][].
 
 ## Credits
 
-The `cond()` function for building contrasts has been devised by @const-ae for his R package [glmGamPoi](https://bioconductor.org/packages/release/bioc/html/glmGamPoi.html). A [prototype](https://github.com/scverse/multi-condition-comparisions) of the Python implementation has been built at the [scverse hackathon in Cambridge, UK in Nov 2023](https://scverse.org/events/2023_11_hackathon/) by @grst, @const-ae and @BorisMuzellec. The production version in this package has been implemented by @grst.
+The `cond()` function for building contrasts has been devised by [@const-ae](https://github.com/const-ae) for his R package [glmGamPoi](https://bioconductor.org/packages/release/bioc/html/glmGamPoi.html). A [prototype](https://github.com/scverse/multi-condition-comparisions) of the Python implementation has been built at the [scverse hackathon in Cambridge, UK in Nov 2023](https://scverse.org/events/2023_11_hackathon/) by [@grst](https://github.com/grst), [@const-ae](https://github.com/const-ae) and [@BorisMuzellec](https://github.com/BorisMuzellec). The production version in this package has been implemented by @grst.
 
 [mambaforge]: https://github.com/conda-forge/miniforge#mambaforge
 [scverse discourse]: https://discourse.scverse.org/
