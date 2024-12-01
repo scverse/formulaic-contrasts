@@ -27,12 +27,7 @@ class FormulaicContrasts:
     @property
     def variables(self):
         """Get the names of the variables used in the model definition."""
-        try:
-            return self.design_matrix.model_spec.variables_by_source["data"]
-        except AttributeError:
-            raise ValueError(
-                "Retrieving variables is only possible if the model was initialized using a formula."
-            ) from None
+        return self.design_matrix.model_spec.variables_by_source["data"]
 
     def cond(self, **kwargs):
         """
@@ -47,10 +42,6 @@ class FormulaicContrasts:
         -------
             A contrast vector that aligns to the columns of the design matrix.
         """
-        if self.factor_storage is None:
-            raise RuntimeError(
-                "Building contrasts with `cond` only works if you specified the model using a formulaic formula. Please manually provide a contrast vector."
-            )
         cond_dict = kwargs
         if not set(cond_dict.keys()).issubset(self.variables):
             raise ValueError(
