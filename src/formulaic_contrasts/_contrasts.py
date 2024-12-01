@@ -27,12 +27,7 @@ class FormulaicContrasts:
     @property
     def variables(self):
         """Get the names of the variables used in the model definition."""
-        try:
-            return self.design_matrix.model_spec.variables_by_source["data"]
-        except AttributeError:
-            raise ValueError(
-                "Retrieving variables is only possible if the model was initialized using a formula."
-            ) from None
+        return self.design_matrix.model_spec.variables_by_source["data"]
 
     def cond(self, **kwargs):
         """
