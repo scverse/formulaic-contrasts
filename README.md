@@ -20,15 +20,13 @@ If you don't have Python installed, we recommend installing [Mambaforge][].
 
 There are several alternative options to install formulaic-contrasts:
 
-<!--
-1) Install the latest release of `formulaic-contrasts` from [PyPI][]:
+1. Install the latest release of `formulaic-contrasts` from [PyPI][]:
 
 ```bash
 pip install formulaic-contrasts
 ```
--->
 
-1. Install the latest development version:
+2. Install the latest development version:
 
 ```bash
 pip install git+https://github.com/scverse/formulaic-contrasts.git@main
@@ -42,6 +40,10 @@ See the [changelog][].
 
 For questions and help requests, you can reach out in the [scverse discourse][].
 If you found a bug, please use the [issue tracker][].
+
+## Credits
+
+The `cond()` function for building contrasts has been devised by @const-ae for his R package [glmGamPoi](https://bioconductor.org/packages/release/bioc/html/glmGamPoi.html). A [prototype](https://github.com/scverse/multi-condition-comparisions) of the Python implementation has been built at the [scverse hackathon in Cambridge, UK in Nov 2023](https://scverse.org/events/2023_11_hackathon/) by @grst, @const-ae and @BorisMuzellec. The production version in this package has been implemented by @grst.
 
 [mambaforge]: https://github.com/conda-forge/miniforge#mambaforge
 [scverse discourse]: https://discourse.scverse.org/
