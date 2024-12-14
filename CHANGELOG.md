@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning][].
 
 ## v0.2.0
 
--   Rename `FormulaicContrasts.design` to `FormulaicContrasts.design_matrix`
+- Rename `FormulaicContrasts.design` to `FormulaicContrasts.design_matrix`
 
 ## v0.1.0
 
