@@ -42,6 +42,8 @@ class FormulaicContrasts:
 
         >>> contrast = model.cond(treatment="drugA") - model.cond(treatment="placebo")
 
+        For more information on how to build contrasts, see :doc:`/contrasts`.
+
         Parameters
         ----------
         **kwargs
@@ -68,7 +70,7 @@ class FormulaicContrasts:
 
     def contrast(self, column, baseline, group_to_compare):
         """
-        Build a simple contrast for pairwise comparisons.
+        Build a simple contrast for pairwise comparisons of a single variable.
 
         For more complex contrasts, please use construct a contrast vector using
         :func:`~formulaic_contrasts.FormulaicContrasts.cond`.
