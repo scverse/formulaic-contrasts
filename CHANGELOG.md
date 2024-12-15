@@ -10,12 +10,12 @@ and this project adheres to [Semantic Versioning][].
 
 ## v1.0.0
 
--   Update tutorials and docstrings of `.cond()` and `.contrast()` ([#11](https://github.com/scverse/formulaic-contrasts/pull/11))
--   No other changes, but the API is considered stable now.
+- Update tutorials and docstrings of `.cond()` and `.contrast()` ([#11](https://github.com/scverse/formulaic-contrasts/pull/11))
+- No other changes, but the API is considered stable now.
 
 ## v0.2.0
 
--   Rename `FormulaicContrasts.design` to `FormulaicContrasts.design_matrix`
+- Rename `FormulaicContrasts.design` to `FormulaicContrasts.design_matrix`
 
 ## v0.1.0
 
