@@ -132,9 +132,9 @@ def get_factor_storage_and_materializer() -> tuple[dict[str, list[FactorMetadata
 
             We can record some metadata, before we call the original function.
             """
-            assert (
-                self._current_factor is None
-            ), "_current_factor should always be None when we start recording metadata"
+            assert self._current_factor is None, (
+                "_current_factor should always be None when we start recording metadata"
+            )
             if self.factor_metadata_storage is not None:
                 # Don't store if the factor is cached (then we should already have recorded it)
                 if factor.expr in self.encoded_cache or (factor.expr, reduced_rank) in self.encoded_cache:
