@@ -61,8 +61,7 @@ The `cond()` function for building contrasts has been devised by [@const-ae](htt
 [usage in custom model]: https://formulaic-contrasts.readthedocs.io/en/latest/model_usage.html
 [building contrasts]: https://formulaic-contrasts.readthedocs.io/en/latest/contrasts.html
 [pypi]: https://pypi.org/project/formulaic-contrasts
-
-[//]: # (numfocus-fiscal-sponsor-attribution)
+[//]: # "numfocus-fiscal-sponsor-attribution"
 
 formulaic-contrasts is part of the scverse® project ([website](https://scverse.org), [governance](https://scverse.org/about/roles)) and is fiscally sponsored by [NumFOCUS](https://numfocus.org/).
 If you like scverse® and want to support our mission, please consider making a tax-deductible [donation](https://numfocus.org/donate-to-scverse) to help the project pay for developer time, professional services, travel, workshops, and a variety of other needs.
