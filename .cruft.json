@@ -1,7 +1,7 @@
 {
-  "template": "https://github.com/scverse/cookiecutter-scverse",
-  "commit": "6ff5b92b5d44ea6d8a88e47538475718d467db95",
-  "checkout": "v0.7.0",
+  "template": "/home/sturm/tmp/tmp5f19rmlt",
+  "commit": "50f4600a5bf63c821650bd5d5496ea3036b84db5",
+  "checkout": "test9",
   "context": {
     "cookiecutter": {
       "project_name": "formulaic-contrasts",
@@ -35,8 +35,8 @@
         "lstrip_blocks": true,
         "trim_blocks": true
       },
-      "_template": "https://github.com/scverse/cookiecutter-scverse",
-      "_commit": "6ff5b92b5d44ea6d8a88e47538475718d467db95"
+      "_template": "/home/sturm/tmp/tmp5f19rmlt",
+      "_commit": "2d05d11fdbab215d80bab538bb6007ddf438fa9e"
     }
   },
   "directory": null
