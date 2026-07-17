@@ -1,7 +1,7 @@
 {
-  "template": "/home/sturm/tmp/tmpkcrtad2k",
-  "commit": "50f4600a5bf63c821650bd5d5496ea3036b84db5",
-  "checkout": "test9",
+  "template": "/tmp/tmpvf8ta0q7",
+  "commit": "6518dfa1abde7379ea7255daf0ce09c23f2b4c94",
+  "checkout": "v0.8.0",
   "context": {
     "cookiecutter": {
       "project_name": "formulaic-contrasts",
@@ -13,6 +13,7 @@
       "github_repo": "formulaic-contrasts",
       "license": "BSD 3-Clause License",
       "ide_integration": true,
+      "issue_categorization": "",
       "_copy_without_render": [
         ".github/workflows/build.yaml",
         ".github/workflows/test.yaml",
@@ -35,10 +36,10 @@
         "lstrip_blocks": true,
         "trim_blocks": true
       },
-      "_template": "/home/sturm/tmp/tmpkcrtad2k",
-      "_commit": "6d1c68ed2ada14419ec1f9050fd3fade815db96b"
+      "_template": "/tmp/tmpvf8ta0q7",
+      "_commit": "4d6aa34fd5be7523ca3bd49fbd81a882dde01d1f"
     },
-    "_commit": "50f4600a5bf63c821650bd5d5496ea3036b84db5",
+    "_commit": "6518dfa1abde7379ea7255daf0ce09c23f2b4c94",
     "_template": "https://github.com/scverse/cookiecutter-scverse"
   },
   "directory": null
